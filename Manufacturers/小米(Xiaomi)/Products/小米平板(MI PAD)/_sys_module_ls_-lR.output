@@ -1,0 +1,533 @@
+8250/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 nr_uarts
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 share_irqs
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 skip_txen_test
+
+8250_core/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nr_uarts
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 share_irqs
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 skip_txen_test
+
+alarm_dev/parameters:
+-rw-rw-r--    1 0        0             4096 Jul  2 10:00 debug_mask
+
+bandwidth/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 use_dynamic_emc
+
+bcmdhd/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 clockoverride
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 dhd_console_ms
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 dhd_doflow
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 dhd_dpcpoll
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 dhd_oob_gpio_num
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 disable_proptx
+-rw-rw----    1 0        0             4096 Jul  2 10:00 firmware_path
+-r--r--r--    1 0        0             4096 Jul  2 10:00 info_string
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 instance_base
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 mac
+-rw-rw----    1 0        0             4096 Jul  2 10:00 nvram_path
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 op_mode
+
+binder/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 debug_mask
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 proc_no_lock
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 stop_on_user_error
+
+block/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 events_dfl_poll_msecs
+
+bluetooth/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 disable_ertm
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 disable_esco
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 enable_hs
+
+bq27x00_battery/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:15 poll_interval
+
+cdc_ncm/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 prefer_mbim
+
+cfg80211/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 cfg80211_disable_40mhz_24ghz
+-r--r--r--    1 0        0             4096 Jul  2 10:00 ieee80211_regdom
+
+cifs/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 cifs_max_pending
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 enable_oplocks
+
+cpu_tegra/parameters:
+-rw-r--r--    1 1000     1000          4096 Jul  2 10:00 cpu_user_cap
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 force_policy_max
+
+cpuidle/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 off
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 power_down_in_idle
+
+cpuidle_t11x/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 cpu_power_gating_in_idle
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 fast_cluster_power_down_mode
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 slow_cluster_power_gating_noncpu
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 stop_mc_clk_in_idle
+
+dc/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 suspend
+
+dsi/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 enable_read_debug
+
+dynamic_debug/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 verbose
+
+ehci_hcd/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 ignore_oc
+-r--r--r--    1 0        0             4096 Jul  2 10:00 log2_irq_thresh
+-r--r--r--    1 0        0             4096 Jul  2 10:00 park
+
+fiq_debugger/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 console_enable
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 debug_enable
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 kgdb_enable
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 no_sleep
+
+firmware_class/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 path
+
+fuse/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 max_user_bgreq
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 max_user_congthresh
+
+g_android/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 dev_addr
+-r--r--r--    1 0        0             4096 Jul  2 10:00 host_addr
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nvusb_buflen
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nvusb_pattern
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 qmult
+
+hid/parameters:
+-rw-------    1 0        0             4096 Jul  2 10:45 debug
+-rw-------    1 0        0             4096 Jul  2 10:45 ignore_special_drivers
+
+hid_apple/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 fnmode
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 iso_layout
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 swap_opt_cmd
+
+hid_magicmouse/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 emulate_3button
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 emulate_scroll_wheel
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 report_undeciphered
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 scroll_acceleration
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 scroll_speed
+
+hid_ntrig/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 activate_slack
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 activation_height
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 activation_width
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 deactivate_slack
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 min_height
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 min_width
+
+hid_prodikeys/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 enable
+-r--r--r--    1 0        0             4096 Jul  2 10:00 id
+-r--r--r--    1 0        0             4096 Jul  2 10:00 index
+
+i2c_algo_bit/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 bit_test
+
+i2c_hid/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 debug
+
+input_cfboost/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 boost_freq
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 boost_time
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 gpu_wakeup
+
+ip6_tunnel/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 log_ecn_error
+
+ipv6/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 autoconf
+-r--r--r--    1 0        0             4096 Jul  2 10:00 disable
+-r--r--r--    1 0        0             4096 Jul  2 10:00 disable_ipv6
+
+kernel/parameters:
+-rw-------    1 0        0             4096 Jul  2 10:00 alignment
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 initcall_debug
+-r--------    1 0        0             4096 Jul  2 10:00 irqtime
+-r--r--r--    1 0        0             4096 Jul  2 10:00 nousb
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 panic
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 pause_on_oops
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 verbose_smc
+
+l3mhi/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 l2_channels
+
+latency_allowance/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 disable_bbc_ptsa
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 disable_disp_ptsa
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 disable_la
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 disable_ptsa
+
+libahci/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 ahci_em_messages
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 devslp_idle_timeout
+-r--r--r--    1 0        0             4096 Jul  2 10:00 ignore_sss
+-r--r--r--    1 0        0             4096 Jul  2 10:00 skip_host_reset
+
+libata/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 allow_tpm
+-r--r--r--    1 0        0             4096 Jul  2 10:00 ata_probe_timeout
+-r--r--r--    1 0        0             4096 Jul  2 10:00 atapi_an
+-r--r--r--    1 0        0             4096 Jul  2 10:00 atapi_dmadir
+-r--r--r--    1 0        0             4096 Jul  2 10:00 atapi_enabled
+-r--r--r--    1 0        0             4096 Jul  2 10:00 atapi_passthru16
+-r--r--r--    1 0        0             4096 Jul  2 10:00 dma
+-r--r--r--    1 0        0             4096 Jul  2 10:00 fua
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 ignore_hpa
+-r--r--r--    1 0        0             4096 Jul  2 10:00 noacpi
+
+lockd/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nlm_grace_period
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nlm_max_connections
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nlm_tcpport
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nlm_timeout
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nlm_udpport
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nsm_use_hostnames
+
+loop/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 max_loop
+-r--r--r--    1 0        0             4096 Jul  2 10:00 max_part
+
+lowmemorykiller/parameters:
+-rw-rw-r--    1 0        1000          4096 Jul  2 10:00 adj
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 cost
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 debug_level
+-rw-rw-r--    1 0        1000          4096 Jul  2 10:00 minfree
+
+mcerr/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 arb_intr_count
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 arb_intr_mma_in_ms
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 spurious_intrs
+
+mmc_core/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 removable
+
+mmcblk/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 perdev_minors
+
+nf_conntrack/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 acct
+-r--------    1 0        0             4096 Jul  2 10:00 expect_hashsize
+-rw-------    1 0        0             4096 Jul  2 10:00 hashsize
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nf_conntrack_helper
+
+nf_conntrack_amanda/parameters:
+-rw-------    1 0        0             4096 Jul  2 10:00 master_timeout
+-r--------    1 0        0             4096 Jul  2 10:00 ts_algo
+
+nf_conntrack_ftp/parameters:
+-rw-------    1 0        0             4096 Jul  2 10:00 loose
+-r--------    1 0        0             4096 Jul  2 10:00 ports
+
+nf_conntrack_h323/parameters:
+-rw-------    1 0        0             4096 Jul  2 10:00 callforward_filter
+-rw-------    1 0        0             4096 Jul  2 10:00 default_rrq_ttl
+-rw-------    1 0        0             4096 Jul  2 10:00 gkrouted_only
+
+nf_conntrack_ipv4/parameters:
+-rw-------    1 0        0             4096 Jul  2 10:00 hashsize
+
+nf_conntrack_irc/parameters:
+-r--------    1 0        0             4096 Jul  2 10:00 dcc_timeout
+-r--------    1 0        0             4096 Jul  2 10:00 max_dcc_channels
+-r--------    1 0        0             4096 Jul  2 10:00 ports
+
+nf_conntrack_netbios_ns/parameters:
+-r--------    1 0        0             4096 Jul  2 10:00 timeout
+
+nf_conntrack_sane/parameters:
+-r--------    1 0        0             4096 Jul  2 10:00 ports
+
+nf_conntrack_sip/parameters:
+-r--------    1 0        0             4096 Jul  2 10:00 ports
+-rw-------    1 0        0             4096 Jul  2 10:00 sip_direct_media
+-rw-------    1 0        0             4096 Jul  2 10:00 sip_direct_signalling
+-rw-------    1 0        0             4096 Jul  2 10:00 sip_timeout
+
+nf_conntrack_tftp/parameters:
+-r--------    1 0        0             4096 Jul  2 10:00 ports
+
+nfs/parameters:
+-rw-------    1 0        0             4096 Jul  2 10:45 cache_getent
+-rw-------    1 0        0             4096 Jul  2 10:45 cache_getent_timeout
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 enable_ino64
+
+nvdumper/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 ramdump_mode
+
+nvhost/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 register_sets
+
+nvmap_pp/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 enable_page_pools
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 iwb_pool_size
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 shrink_page_pools
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 uc_pool_size
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 wb_pool_size
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 wc_pool_size
+
+oprofile/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 timer
+
+otg_wakelock/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 enabled
+
+ozwpan/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 g_net_dev
+
+pm_irq/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 debug_lp0
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 warn_prevent_lp0
+
+powerdetect/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 pwrdet_always_on
+-r--r--r--    1 0        0             4096 Jul  2 10:00 pwrdet_val
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 pwrio_always_on
+-r--r--r--    1 0        0             4096 Jul  2 10:00 pwrio_val
+
+printk/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 always_kmsg_dump
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 console_suspend
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 ignore_loglevel
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 time
+
+pstore/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 backend
+-rw-------    1 0        0             4096 Jul  2 10:00 update_ms
+
+qos/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 enable
+
+ramoops/parameters:
+-r--------    1 0        0             4096 Jul  2 10:00 console_size
+-rw-------    1 0        0             4096 Jul  2 10:00 dump_oops
+-rw-------    1 0        0             4096 Jul  2 10:00 ecc
+-r--------    1 0        0             4096 Jul  2 10:00 ftrace_size
+-r--------    1 0        0             4096 Jul  2 10:00 mem_address
+-r--------    1 0        0             4096 Jul  2 10:00 mem_size
+-r--------    1 0        0             4096 Jul  2 10:00 record_size
+
+random/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 debug
+
+rcupdate/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 rcu_cpu_stall_suppress
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 rcu_cpu_stall_timeout
+
+rcutree/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 blimit
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 jiffies_till_first_fqs
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 jiffies_till_next_fqs
+-r--r--r--    1 0        0             4096 Jul  2 10:00 qhimark
+-r--r--r--    1 0        0             4096 Jul  2 10:00 qlowmark
+-r--r--r--    1 0        0             4096 Jul  2 10:00 rcu_fanout_leaf
+
+rfkill/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 default_state
+
+sch_htb/parameters:
+-rw-r-----    1 0        0             4096 Jul  2 10:00 htb_hysteresis
+
+scsi_mod/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 default_dev_flags
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 inq_timeout
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 max_luns
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 max_report_luns
+-r--r--r--    1 0        0             4096 Jul  2 10:00 scan
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 scsi_logging_level
+
+sdhci/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 debug_quirks
+-r--r--r--    1 0        0             4096 Jul  2 10:00 debug_quirks2
+
+sg/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 allow_dio
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 def_reserved_size
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 scatter_elem_sz
+
+sit/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 log_ecn_error
+
+smsc95xx/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 turbo_mode
+
+snd/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:45 cards_limit
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 debug
+-r--r--r--    1 0        0             4096 Jul  2 10:45 major
+-r--r--r--    1 0        0             4096 Jul  2 10:45 slots
+
+snd_hda_codec_hdmi/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 static_hdmi_pcm
+
+snd_hda_intel/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 align_buffer_size
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 bdl_pos_adj
+-r--r--r--    1 0        0             4096 Jul  2 10:00 enable
+-r--r--r--    1 0        0             4096 Jul  2 10:00 enable_msi
+-r--r--r--    1 0        0             4096 Jul  2 10:00 id
+-r--r--r--    1 0        0             4096 Jul  2 10:00 index
+-r--r--r--    1 0        0             4096 Jul  2 10:00 jackpoll_ms
+-r--r--r--    1 0        0             4096 Jul  2 10:00 model
+-r--r--r--    1 0        0             4096 Jul  2 10:00 position_fix
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 power_save
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 power_save_controller
+-r--r--r--    1 0        0             4096 Jul  2 10:00 probe_mask
+-r--r--r--    1 0        0             4096 Jul  2 10:00 probe_only
+-r--r--r--    1 0        0             4096 Jul  2 10:00 single_cmd
+
+snd_pcm/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 maximum_substreams
+-r--r--r--    1 0        0             4096 Jul  2 10:00 preallocate_dma
+
+snd_soc_rt5671/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 hp_amp_time
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 pmu_depop_time
+
+snd_timer/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 timer_limit
+-r--r--r--    1 0        0             4096 Jul  2 10:00 timer_tstamp_monotonic
+
+snd_usb_audio/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 autoclock
+-r--r--r--    1 0        0             4096 Jul  2 10:00 device_setup
+-r--r--r--    1 0        0             4096 Jul  2 10:00 enable
+-r--r--r--    1 0        0             4096 Jul  2 10:00 id
+-r--r--r--    1 0        0             4096 Jul  2 10:00 ignore_ctl_error
+-r--r--r--    1 0        0             4096 Jul  2 10:00 index
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nrpacks
+-r--r--r--    1 0        0             4096 Jul  2 10:00 pid
+-r--r--r--    1 0        0             4096 Jul  2 10:00 vid
+
+spurious/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 irqfixup
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 noirqdebug
+
+sr_mod/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 xa_test
+
+sunrpc/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 auth_hashtable_size
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 max_resvport
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 min_resvport
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 pool_mode
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 tcp_max_slot_table_entries
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 tcp_slot_table_entries
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 udp_slot_table_entries
+
+sysrq/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 reset_seq
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 sysrq_downtime_ms
+
+tcp_cubic/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 beta
+-r--r--r--    1 0        0             4096 Jul  2 10:45 bic_scale
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 fast_convergence
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 hystart
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 hystart_ack_delta
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 hystart_detect
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 hystart_low_window
+-rw-r--r--    1 0        0             4096 Jul  2 10:45 initial_ssthresh
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 tcp_friendliness
+
+tegra12_clocks/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 detach_shared_bus
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 use_dfll
+
+tegra12_dvfs/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 disable_core
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 disable_cpu
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 disable_gpu
+
+tegra12_emc/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 emc_enable
+
+tegra12_speedo/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:45 tegra_enable_app_profiles
+
+tegra_fuse/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 tegra_chip_id
+-r--r--r--    1 0        0             4096 Jul  2 10:00 tegra_chip_rev
+-r--r--r--    1 0        0             4096 Jul  2 10:00 tegra_fuse_vp8_enable
+-r--r--r--    1 0        0             4096 Jul  2 10:00 tegra_gpu_num_alus_per_pixel_pipe
+-r--r--r--    1 0        0             4096 Jul  2 10:00 tegra_gpu_num_pixel_pipes
+
+tegra_udc/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 boost_enable
+
+tegra_wdt/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 wdog_fire
+
+usb_storage/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 delay_use
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 option_zero_cd
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 quirks
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 swi_tru_install
+
+usbcore/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 authorized_default
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 autosuspend
+-r--r--r--    1 0        0             4096 Jul  2 10:00 blinkenlights
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 initial_descriptor_timeout
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 old_scheme_first
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 usbfs_memory_mb
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 usbfs_snoop
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 use_both_schemes
+
+usbhid/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 ignoreled
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 mousepoll
+-r--r--r--    1 0        0             4096 Jul  2 10:00 quirks
+
+uvcvideo/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 clock
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 nodrop
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 quirks
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 timeout
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 trace
+
+videobuf2_core/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 debug
+
+window/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 no_vsync
+
+workqueue/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 disable_numa
+
+xhci_hcd/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 firmware_file
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 link_quirk
+
+xpad/parameters:
+-r--r--r--    1 0        0             4096 Jul  2 10:00 dpad_to_buttons
+-r--r--r--    1 0        0             4096 Jul  2 10:00 sticks_to_null
+-r--r--r--    1 0        0             4096 Jul  2 10:00 triggers_to_buttons
+
+xt_qtaguid/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 ctrl_perms
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 ctrl_write_limited
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 debug_mask
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 iface_perms
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 max_sock_tags
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 passive
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 stats_perms
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 stats_readall_limited
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 tag_tracking_passive
+
+xt_quota2/parameters:
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 event_num
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 gid
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 perms
+-rw-r--r--    1 0        0             4096 Jul  2 10:00 uid
