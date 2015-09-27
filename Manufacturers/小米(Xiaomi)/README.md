@@ -1,5 +1,6 @@
-# 〈廠商名稱〉<br />&lt;Manufacturer name&gt;
+# 小米<br />Xiaomi
 ## 官方網站<br />Official site
+<http://mi.com>
 
 ## 本目錄下的項目說明<br />Description of the items under this directory
 * README.md
